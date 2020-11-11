@@ -20,23 +20,19 @@ SO THAT I can manage my time effectively
 
     **List of Tasks Completed**
 
-    1.
+    1. Created index.html, script.js, and style.css files and linked together.
 
-    2.
+    2. Created time blocks for work hours from 9am to 5pm.
 
-    3.
+    3. Created clear all button at the bottom of the page to clear all user input.
 
-    4.
+    4. Created function to display time and date once page is loaded.
 
-    5.
+    5. Styled page through html and css to give it unique look and feel.
 
-    6.
+    6. Created function so that once user input is typed into the textarea and the save button is clicked it is saved to the local storage.
 
-    7.
-
-    8.
-
-    9.
+    7. Created function to indicate whether time is in the past present or future.
 
 ## Link to Deployed Application & ScreenShots of Completed Application
 
