@@ -2,12 +2,11 @@ $(document).ready(function(){
 
     var todaysDate = moment().format('dddd, MMMM Do, YYYY');
         $("#todayIs").text(todaysDate);
-        refreshPlans();
 });
 
     var todaysDate = moment().format('h:mm:ss a');
         $("#rightNow").text(todaysDate);
-
+        
     $("#clear").click(function() {
         localStorage.clear();
         location.reload()
@@ -36,7 +35,7 @@ function timeSlot() {
 
 timeSlot();
 
-Storage = window.localStorage;
+storage = window.localStorage;
 function saveToStorage(key, value) {
     localStorage.setItem(key, value);
 }
