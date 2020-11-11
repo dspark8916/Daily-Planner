@@ -25,16 +25,21 @@ textarea {
 }
 
 .past {
-    background-color: crimson;
+    background-color: #d3d3d3;
     color: white;
 }
 
 .present {
-    background-color: violet;
+    background-color: #ff6961;
     color: white;
 }
 
 .future {
-    background-color: cornflowerblue;
+    background-color: #77dd77;
     color: white;
 }
+
+.saveBtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
