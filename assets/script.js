@@ -12,6 +12,26 @@ $(document).ready(function(){
         location.reload()
 });
 
+function timeSlot() {
+    var taskTime = moment().hour();
+    var presentTime = $('.row');
+
+    presentTime.each(function() {
+        var confirm = parseInt($(this).attr('id'))
+        if (confirm < 9) {
+            confirm += 12;
+        }
+        let time = $(this)[0];
+        if (taskTime === confirm) {
+            $(time).addClass('prsent')
+        } else if (taskTime > confirm) {
+            $(time).addClass('past')
+        } else if (taskTime < confirm) {
+            $(time).addClass('future')
+        }
+    })
+}
+
 
 
 
