@@ -32,6 +32,19 @@ function timeSlot() {
     })
 }
 
+timeSlot();
+
+Storage = window.localStorage;
+function saveToStorage(key, value) {
+    localStorage.setItem(key, value);
+}
+
+function getStorage(key) {
+    let item = localStorage.getItem(key);
+    if (item == null) return "";
+    return item;
+}
+
 
 
 
