@@ -23,3 +23,18 @@ textarea {
     background-color: lightyellow;
     border: 2px solid black;
 }
+
+.past {
+    background-color: crimson;
+    color: white;
+}
+
+.present {
+    background-color: violet;
+    color: white;
+}
+
+.future {
+    background-color: cornflowerblue;
+    color: white;
+}

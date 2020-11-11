@@ -11,6 +11,7 @@ $(document).ready(function(){
     $("#clear").click(function() {
         localStorage.clear();
         location.reload()
+        refreshPlans();
 });
 
 function timeSlot() {
