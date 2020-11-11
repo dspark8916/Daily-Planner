@@ -8,7 +8,43 @@
 
 ## User Story
 
+```
+AS AN employee with a busy schedule
+I WANT to add important events to a daily planner
+SO THAT I can manage my time effectively
+```
+
 ## Tasks Completed
+
+    **List of Tasks Completed**
+
+    1.
+
+    2.
+
+    3.
+
+    4.
+
+    5.
+
+    6.
+
+    7.
+
+    8.
+
+    9.
+
+## Link to Deployed Application & ScreenShots of Completed Application
+
+    **Live Link**
+[Daily Planner]()
+
+    **ScreenShots**
+![Clear Planner]()
+
+![Planner With Saved Tasks]()
 
 
 
