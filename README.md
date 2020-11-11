@@ -39,12 +39,12 @@ SO THAT I can manage my time effectively
 ## Link to Deployed Application & ScreenShots of Completed Application
 
     **Live Link**
-[Daily Planner]()
+[Daily Planner](https://dspark8916.github.io/Daily-Planner/)
 
     **ScreenShots**
-![Clear Planner]()
+![Clear Planner](assets/images/DailyPlanner.png)
 
-![Planner With Saved Tasks]()
+![Planner With Saved Tasks](assets/images/SavedTasks.png)
 
 
 
