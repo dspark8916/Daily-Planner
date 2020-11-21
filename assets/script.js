@@ -9,6 +9,7 @@ $(document).ready(function () {
 
     $("#clear").click(function () {
         localStorage.clear();
+        location.reload()
     });
 
     var workDayHrs = ["9", "10", "11", "12", "13", "14", "15", "16", "17"];
@@ -33,6 +34,14 @@ $(document).ready(function () {
         var workHr = $(this).attr('id');
         localStorage.setItem(workHr, userInput);
     });
+
+    function dayPlans() {
+        for(var i = 0; i < workDayHrs.length; i++) {
+            $(`#hour${workDayHrs[i]} .textInput`).val(localStorage.getItem(workDayHrs[i]));
+        }
+    }
+
+    dayPlans();
 
 });
 
