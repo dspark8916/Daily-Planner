@@ -44,4 +44,4 @@ SO THAT I can manage my time effectively
 
 ![Planner With Saved Tasks](assets/images/SavedTasks.png)
 
-![Colored Time Slots](assets/images/coloredtimeslot.png)
+![Colored Time Slots](assets/images/coloredtimeslots.png)
