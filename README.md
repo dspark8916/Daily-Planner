@@ -43,3 +43,5 @@ SO THAT I can manage my time effectively
 ![Clear Planner](assets/images/DailyPlanner.png)
 
 ![Planner With Saved Tasks](assets/images/SavedTasks.png)
+
+![Colored Time Slots](assets/images/coloredtimeslot.png)
